@@ -1,0 +1,5 @@
+---
+- name: Install java11
+  hosts: terraform
+  roles:
+    - java
